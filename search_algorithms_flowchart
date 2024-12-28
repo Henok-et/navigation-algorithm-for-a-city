@@ -1,0 +1,20 @@
+// Search Algorithms
+digraph {
+	Start [label=Start]
+	BFS [label="BFS (Breadth-First Search)"]
+	DFS [label="DFS (Depth-First Search)"]
+	UCS [label="UCS (Uniform Cost Search)"]
+	AStar [label="A* Search"]
+	SA [label="Simulated Annealing"]
+	Start -> BFS [label="Run BFS"]
+	Start -> DFS [label="Run DFS"]
+	Start -> UCS [label="Run UCS"]
+	Start -> AStar [label="Run A*"]
+	Start -> SA [label="Run Simulated Annealing"]
+	End [label=End]
+	BFS -> End
+	DFS -> End
+	UCS -> End
+	AStar -> End
+	SA -> End
+}
